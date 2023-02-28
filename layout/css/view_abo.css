@@ -1,0 +1,48 @@
+.viewabo-container{
+    width: 80%;
+}
+
+.membre-info {
+    margin-top: 10rem;
+    display: flex;
+    justify-content:center ;
+    gap: 4.8rem;
+    font-size: 1.6rem;
+}
+
+.txt{
+    color:#826f5e;
+    display: inline;
+    font-weight: 500;
+}
+
+
+.abos{
+    margin-top: 5rem;
+    display: flex;
+    justify-content:center ;
+}
+
+.abo{
+    background-color: #dcd8d0 ;
+    box-shadow:0px 0px 10px 0px rgba(100, 100, 111, 0.2);
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 1.4rem;
+    width: 28rem;
+    padding: 4rem 0;
+    margin: 1rem;
+}
+
+.abo span{
+    color:#826f5e;
+    /* margin-left: 2rem; */
+ }
+
+.link{
+   display: inline;
+}

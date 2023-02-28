@@ -1,0 +1,157 @@
+.add-form{
+    margin-left: 2rem;
+}
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:flex-start;
+    width:80vw;
+}
+
+.registration .inputs{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.registration label{
+    color:#847369;
+    font-size: 1.4em;
+    width: 14rem;
+    /* margin-right: auto; */
+}   
+
+.registration input{
+    background-color: #f6f5f3;
+    height: 3rem;
+    border: 1px solid #96816f;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    /* padding-right: 100px; */
+    width: 31.8rem;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+
+.registration select{
+    background-color: #f6f5f3;
+    height: 4.3rem;
+    border: 1px solid #96816f;
+    border-radius: 5px;
+    margin: 10px;
+    /* padding-right: 12.7rem; */
+    width: 33.08rem;
+    color: black;
+}
+
+#naissance{
+    width: 32rem;
+}
+
+.long-form-line{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btns{
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btn{
+    margin: 1.6rem 0 1.6rem 2.3rem;
+    cursor: pointer;
+    font-family: inherit;
+    height: 4rem;
+    width: 14rem;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #96816f;
+    padding: 10px 30px;
+    border: solid #96816f 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+#btn:hover{
+    transition : 300ms;
+    padding: 10px 30px;
+    background-color: #f6f5f3;
+    color: #96816f;
+    border: solid 1px #96816f;
+}
+
+.btn-ajt{
+    margin: 0 14rem;
+}
+
+.ajouter_btn{
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    height: 4rem;
+    width: 14rem;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #96816f;
+    padding: 10px 30px;
+    border: solid #96816f 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.ajouter_btn:hover{
+    transition : 300ms;
+    padding: 10px 30px;
+    background-color: #f6f5f3;
+    color: #96816f;
+    border: solid 1px #96816f;
+}
+
+
+@media(max-width: 600px){
+    .location{
+        font-size: 1.1rem;
+    }
+    .add-form{
+        margin-left: 0rem;
+    }
+
+    .registration label{
+        font-size:1em;
+        width: 11rem;
+    }
+
+    .registration input{
+        height: 1.6rem;
+        margin: 10px 0;
+        width: 16rem;
+    }
+
+    .registration select{
+        height: 2.8rem;
+        margin: 10px 0;
+        width: 17.2rem;
+    }
+
+    #naissance{
+        width:16rem;
+    }
+
+    #btn{
+        font-size: 1.1rem;
+        margin: 1.6rem 9rem;
+        height: 3rem;
+        width: 11rem;
+    }
+}

@@ -1,0 +1,124 @@
+/* --- 02 COLORS
+#826f5e
+#96816f //page color
+#b2a395
+#dcd8d0 //navbar
+#f6f5f3 //background
+--- */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Ubuntu' , 'Montserrat' , sans-serif;
+    color:#111111;
+    /* background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* ackground-attachment: scroll; */
+    background: rgba(0,0,0,0) url(../images/1.jpg) no-repeat scroll center / cover;
+}
+
+
+
+.loginform{
+    border-radius: 20px;
+    box-shadow: 0 0 2rem -5px rgba(0,0, 0, 0.5);
+    background-color: #fbfaf9;
+    background-color: rgba(251, 250, 249,0.80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width:30rem;
+    padding: 5rem;
+}
+
+.loginform~div{
+    position: absolute;
+}
+
+.pcc_img{
+    margin-bottom: 2rem;
+}
+
+.alert{
+    background-color: #ffdddd;
+    font: inherit;
+}
+
+.loginform label{
+    font-size: 1.6rem;
+    display: block;
+    margin-bottom: 1rem;
+    color: #837160;
+}
+
+.loginform .input{
+    height: 4rem;
+    width: 25rem;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid #BBB;
+    font-family: inherit;
+}
+
+.loginform .input:focus{
+    outline: none;
+    border-bottom:  2px solid #96816f;
+    transition: all 0.6s;
+}
+
+
+.submit{
+    background-color: #96816f ;
+    color: white;
+    border-radius: 20px;
+    width: 25rem;
+    /* box-shadow: 0 0 2rem -5px rgba(0,0, 0, 0.5); */
+    cursor: pointer;
+    margin:2rem;
+}
+
+.submit:hover{
+    /* background-color: #b2a395; */
+    background-color: #96816f;
+    transform: scale(0.98);
+    /* box-shadow: 0 0 1rem -7px rgba(0,0, 0, 0.5); */
+    text-shadow: none;
+    transition: all 0.4s;
+}
+
+.btn-pass{
+    margin: 0 10rem;
+    cursor: pointer;
+    font-family: inherit;
+    height: 4rem;
+    width: 25rem;
+    font-weight: 0;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #96816f;
+    padding: 1rem 3rem;
+    border: solid #96816f 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 5rem;
+    text-transform: uppercase;
+}
+
+@media(max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}

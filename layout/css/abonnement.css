@@ -1,0 +1,131 @@
+/*--------------container(CONTENU)-------------- */
+.alert{
+  background-color: rgba(248, 215, 218, 1); 
+  color:rgba(114, 28, 36,1);  
+  width:25rem; 
+  border: 1px solid rgba(114, 28, 36,1);
+  }
+
+.success{
+  background-color: rgb(206, 255, 212); 
+  color:rgb(80, 140, 104);  
+  width:25rem; 
+  border: 1px solid rgb(80, 140, 104);
+  }
+
+  .msg{
+    margin-top: 1rem;
+  font-size: 1.2rem; 
+  width:46rem; 
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  }
+
+.form-group {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.search-box{
+  display: flex;
+}
+
+.search-bar{
+  margin-left: 1rem;
+}
+
+#search{
+  width: 30rem;
+  border-radius: 7px;
+  padding-left: 1rem;
+}
+
+#search-id{
+  width: 30rem;
+  border-radius: 7px;
+  padding-left: 1rem;
+}
+
+.table-abo {
+  border-collapse: collapse;
+  min-width: 45%;
+  max-width: 70%;
+  font-size: 1.3rem;
+  margin: 1.6rem 1rem 0 ;
+  box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.table-abo thead tr {
+  background-color: #847369;
+  text-align: left;
+  color: #d5cdc8;
+}
+
+.table-abo th,
+.table-abo td {
+  padding: 1.6rem 0;
+  padding-left: 1rem;
+}
+
+/* .table th:last-child {
+      padding: inherit;
+  } */
+
+.tablet-abo tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table-abo tbody tr:nth-last-of-type(even) {
+  background-color: #d5cdc8;
+}
+.table-abo tbody tr:nth-last-of-type(odd) {
+  background-color: #fdfdfd;
+}
+
+.table-abo tbody tr:last-of-type {
+  border-bottom: 2px solid #847369;
+}
+
+
+@media(max-width:600px) {
+  .search-box{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .search-bar{
+    margin-left: 0;
+  }
+
+  #search,#search-id{
+    width: 20rem;
+    border-radius: 7px;
+    padding-left: 1rem;
+    height: 3.5rem;
+  }
+
+  #search_btn {
+    width: 3.8rem;
+    background-size: 3rem;
+    height: 3.8rem;
+  }
+
+  .table th, .table td {
+  padding: 0.5rem 0.3rem;
+}
+
+.table-abo th, .table-abo td {
+  padding: 1.4rem 0.5rem;
+}
+
+.table-abo, .table {
+  font-size: 1.2rem;
+}
+
+
+}
+
+

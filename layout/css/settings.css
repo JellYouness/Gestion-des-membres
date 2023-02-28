@@ -1,0 +1,32 @@
+.sett-space{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.sett{
+    background-color: #E9E7E2 ;
+    box-shadow:0px 0px 10px 0px rgba(100, 100, 111, 0.2);
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 1.4rem;
+    width: 25rem;
+    height: 2rem;
+    padding: 2rem 1.2rem;
+    margin: 1rem;
+    border-left: 5px solid #b2a395;
+}
+
+.sett div{
+    color:;
+    /* margin-left: 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }

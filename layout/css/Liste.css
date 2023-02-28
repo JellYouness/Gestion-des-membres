@@ -1,0 +1,67 @@
+/*--------------container(CONTENU)-------------- */
+
+#search_btn {
+  width: 4.2rem;
+  background-image: url(../images/search-current.png) ;
+  background-size: 3rem;
+  height: 4.2rem;
+  background-color: #847369;
+  background-repeat: no-repeat;
+  background-position: center ;
+  border: none;
+  border-radius: 10px;
+  margin-left:0;
+}
+
+
+.form-group{
+  display: flex;
+  justify-content: start;
+}
+
+.table {
+  border-collapse: collapse;
+  min-width: 93%;
+  max-width: 100%;
+  font-size: 1.3rem;
+  margin: 1.6rem 0;
+  box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.table thead tr {
+  background-color: #847369;
+  text-align: left;
+  color: #d5cdc8;
+}
+
+
+.table th,
+.table td {
+  padding: 1.6rem 0;
+  padding-left: 1rem;
+}
+
+/* .table th:last-child {
+    padding: inherit;
+} */
+
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-last-of-type(even) {
+  background-color: #d5cdc8;
+}
+.table tbody tr:nth-last-of-type(odd) {
+  background-color: #fdfdfd;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #847369;
+}
+
+/* .small-col {
+    padding: inherit 2rem;
+  } */
